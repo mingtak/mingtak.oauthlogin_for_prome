@@ -31,7 +31,8 @@ setup(name='mingtak.oauthlogin',
           'plone.namedfile [blobs]',
           # -*- Extra requirements: -*-
           'plone.app.registry',
-          'requests-oauthlib',
+          'requests-oauthlib', 
+          'oauthlib==0.6.3',
       ],
       entry_points="""
       # -*- Entry points: -*-
